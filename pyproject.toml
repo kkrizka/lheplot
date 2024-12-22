@@ -24,7 +24,7 @@ Homepage = "https://github.com/kkrizka/lheplot"
 Issues = "https://github.com/kkrizka/lheplot/issues"
 
 [project.scripts]
-lheplot = "lheplot:lheplot"
+lheplot = "lheplot.lheplot:main"
 
 [tool.setuptools.packages.find]
 where = ['src']
