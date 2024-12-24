@@ -52,4 +52,4 @@ class ExampleTopAnalysis(Analysis):
 
 The key parts are:
 - Use the `book` method to create a histogram in the class initializer. The three arguments are the path, number of bins and histogram range. The path is prepended by an `"/ANALYSIS"` string.
-- Implement the `fill` function that takes on argument: `events`. The events are the result of opening an LHE file using `pylhe` and converting to an awkward array. 
+- Implement the `fill` function that takes on argument: `events`. The events are the result of opening an LHE file using `pylhe` and converting to an awkward array.
